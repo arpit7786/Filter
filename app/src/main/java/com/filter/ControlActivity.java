@@ -56,6 +56,8 @@ import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 
+import de.hdodenhof.circleimageview.CircleImageView;
+
 import static com.filter.utility.Helper.writeDataIntoExternalStorage;
 
 public class ControlActivity extends AppCompatActivity {
@@ -192,10 +194,10 @@ public class ControlActivity extends AppCompatActivity {
     };
     final static int PICK_IMAGE = 2;
     final static int MY_PERMISSIONS_REQUEST_STORAGE_PERMISSION = 3;
-    ImageView mFirstFilterPreviewImageView;
-    ImageView mSecondFilterPreviewImageView;
-    ImageView mThirdFilterPreviewImageView;
-    ImageView mFourthFilterPreviewImageView;
+    CircleImageView mFirstFilterPreviewImageView;
+    CircleImageView mSecondFilterPreviewImageView;
+    CircleImageView mThirdFilterPreviewImageView;
+    CircleImageView mFourthFilterPreviewImageView;
     private static final String TAG = ControlActivity.class.getSimpleName();
 
     @Override
@@ -236,10 +238,10 @@ public class ControlActivity extends AppCompatActivity {
         mControlToolbar.setNavigationIcon(R.drawable.icon);
         mControlToolbar.setTitleTextColor(getResources().getColor(R.color.colorwhite));
 
-        mFirstFilterPreviewImageView = (ImageView) findViewById(R.id.imageView4);
-        mSecondFilterPreviewImageView = (ImageView) findViewById(R.id.imageView5);
-        mThirdFilterPreviewImageView = (ImageView) findViewById(R.id.imageView6);
-        mFourthFilterPreviewImageView = (ImageView) findViewById(R.id.imageView7);
+        mFirstFilterPreviewImageView = (CircleImageView) findViewById(R.id.imageView4);
+        mSecondFilterPreviewImageView = (CircleImageView) findViewById(R.id.imageView5);
+        mThirdFilterPreviewImageView = (CircleImageView) findViewById(R.id.imageView6);
+        mFourthFilterPreviewImageView = (CircleImageView) findViewById(R.id.imageView7);
 
         mTickImageView = (ImageView) findViewById(R.id.imageView3);
         mCancelImageView = (ImageView) findViewById(R.id.imageView2);

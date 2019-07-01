@@ -99,40 +99,45 @@
             android:layout_margin="5dp"
             android:orientation="horizontal">
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/imageView4"
                 android:layout_width="wrap_content"
                 android:layout_height="115dp"
                 android:layout_weight="1"
                 android:paddingRight="3dp"
-                android:soundEffectsEnabled="true"
-                app:srcCompat="@drawable/effect1" />
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/imageView5"
                 android:layout_width="wrap_content"
                 android:layout_height="115dp"
                 android:layout_weight="1"
-                android:paddingLeft="3dp"
                 android:paddingRight="3dp"
-                app:srcCompat="@drawable/effect4" />
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/imageView6"
                 android:layout_width="wrap_content"
                 android:layout_height="115dp"
                 android:layout_weight="1"
-                android:paddingLeft="3dp"
                 android:paddingRight="3dp"
-                app:srcCompat="@drawable/effect2" />
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
 
-            <ImageView
+            <de.hdodenhof.circleimageview.CircleImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
                 android:id="@+id/imageView7"
                 android:layout_width="wrap_content"
                 android:layout_height="115dp"
                 android:layout_weight="1"
-                android:paddingLeft="3dp"
-                app:srcCompat="@drawable/effect3" />
+                android:paddingRight="3dp"
+                app:civ_border_width="2dp"
+                app:civ_border_color="#FF000000"/>
 
         </LinearLayout>
 

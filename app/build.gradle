@@ -31,4 +31,5 @@ dependencies {
     implementation 'com.github.zomato:androidphotofilters:1.0.1'
     implementation 'com.google.android.gms:play-services-ads:15.0.1'
     implementation 'com.google.android.gms:play-services-maps:15.0.1'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
 }
